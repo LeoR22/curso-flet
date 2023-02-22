@@ -31,5 +31,9 @@ def main(page:Page):
 #Aplicacion de escritorio
 #flet.app(target=main)
 
-#Aplicacion Web
-flet.app(target=main, view=flet.WEB_BROWSER)
+#Aplicacion Web desde navegador
+#flet.app(target=main, view=flet.WEB_BROWSER)
+
+
+#Aplicacion Web desde una ventana como tkinter
+flet.app(port=8550,target=main)

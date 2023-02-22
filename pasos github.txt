@@ -1,0 +1,8 @@
+pasos git
+git init
+git remote add origin *repositorio-github*
+git status
+git add *nombre-archivo*   -para agregar solo 1 archivo-
+git add . -para agregar todos los archivos-
+git commit -m "v1"
+git push -u origin master
